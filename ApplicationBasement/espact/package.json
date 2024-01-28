@@ -1,0 +1,22 @@
+{
+    "name": "@espact/espact",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint src --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 0 --ignore-path ../../.eslintignore",
+        "preview": "vite preview",
+        "format": "prettier --write --config ../../.prettierrc.js --ignore-path ../../.prettierignore '**/*.{js,json,js,ts,tsx}'"
+    },
+    "dependencies": {
+        "react-responsive": "^9.0.2"
+    },
+    "devDependencies": {
+        "electron": "^25.1.1"
+    },
+    "peerDependencies": {},
+    "eslintConfig": {
+        "extends": "../../.eslintrc.cjs"
+    },
+    "main": "dist-electron/main.js"
+}

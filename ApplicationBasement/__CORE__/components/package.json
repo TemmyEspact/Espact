@@ -1,0 +1,12 @@
+{
+    "name": "@espact/components",
+    "version": "0.0.1",
+    "scripts": {
+        "format": "prettier --write --config ../../../.prettierrc.js --ignore-path ../../.prettierignore '**/*.{js,json,js,ts,tsx}'",
+        "lint": "eslint src --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 0 --ignore-path ../../.eslintignore"
+    },
+    "peerDependencies": {},
+    "eslintConfig": {
+        "extends": "../../../.eslintrc.cjs"
+    }
+}

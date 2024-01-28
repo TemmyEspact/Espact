@@ -1,0 +1,15 @@
+{
+    "name": "@espact/modules",
+    "version": "0.0.1",
+    "scripts": {
+        "format": "prettier --write --config ../../../.prettierrc.js --ignore-path ../../.prettierignore '**/*.{js,json,js,ts,tsx}'",
+        "lint": "eslint src --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 0 --ignore-path ../../.eslintignore"
+    },
+    "peerDependencies": {
+        "postcss": "^8.4.24",
+        "tailwindcss": "^3.3.2"
+    },
+    "eslintConfig": {
+        "extends": "../../../.eslintrc.cjs"
+    }
+}
